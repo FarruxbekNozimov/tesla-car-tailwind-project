@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- TAILWIND CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Poppins:wght@500;700&display=swap"
+			rel="stylesheet" />
+
+		<!-- BOX ICON CDN -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
+
+		<title>Tesla Car | TailwindCSS</title>
+	</head>
+	<body class="bg-[#0A0A0B]">
+		<!-- HEADER SECTION START -->
+		<header clas="bg-slate-900">
+			<div class="container block mx-auto">
+				<nav class="flex justify-between h-20 items-center px-3">
+					<a href="#"><img src="./img/Logo.svg" alt="logo" class="logo" /></a>
+					<ul class="list hidden md:flex w-[40%] justify-between">
+						<li class="item">
+							<a
+								href="#"
+								class="link hover:text-sky-600 duration-300 text-white active"
+								>Home</a
+							>
+						</li>
+						<li class="item">
+							<a
+								href="#"
+								class="link hover:text-sky-600 duration-300 text-white"
+								>About</a
+							>
+						</li>
+						<li class="item">
+							<a
+								href="#"
+								class="link hover:text-sky-600 duration-300 text-white"
+								>Popular</a
+							>
+						</li>
+						<li class="item">
+							<a
+								href="#"
+								class="link hover:text-sky-600 duration-300 text-white"
+								>Featured</a
+							>
+						</li>
+					</ul>
+					<span class="text-white block md:hidden">
+						<i class="bx bx-menu text-3xl"></i>
+					</span>
+				</nav>
+			</div>
+		</header>
+		<!-- HEADER SECTION END -->
+
+		<!-- MAIN SECTION START -->
+		<main>
+			<section class="intro">
+				<h1 class="text-center text-3xl text-white font-bold mt-[70px]">
+					Choose The Best Car
+				</h1>
+				<h2 class="text-center text-white mt-[20px] text-2xl">
+					Porsche Mission E
+				</h2>
+				<span class="text-white flex mx-auto w-[103px] mt-[8px]">
+					<img src="./img/chaqmoq.png" alt="chaqmoq" />
+					<p class="ps-2">Electric car</p>
+				</span>
+				<img
+					class="w-[280px] md:w-[380px] block mx-auto mt-[48px]"
+					src="./img/car-tesla.png"
+					alt="" />
+			</section>
+		</main>
+		<!-- MAIN SECTION END -->
+	</body>
+
+	<!-- BOX ICON CDN (JS) -->
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
